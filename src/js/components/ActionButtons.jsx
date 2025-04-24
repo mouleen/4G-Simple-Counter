@@ -1,7 +1,7 @@
-const ActionButtons = ( {fnaction, btnvalue} ) => {
-
+const ActionButtons = ( {fnaction, btnValue, bsClass} ) => {
+      let btnClass=`btn ${bsClass} w-25`
       return (
-        <button onClick={fnaction}> {btnvalue} </button>
+        <button type="button" className={`${btnClass}`} onClick={fnaction}> {btnValue} </button>
       );
     }
     export default ActionButtons;
