@@ -22,7 +22,12 @@ body{
      width: 100px;
 }
 input {
-    float: left;position: absolute;top: 1%;font-size: 50px;width: 21%;
-    border: darkblue solid;border-radius: 10%; padding: 5px auto;text-align: center;background-color:black;color:greenyellow;
+    float: left;position: absolute;top: 1%;font-size: 35px;width: 21%;
+    border: darkblue solid; padding: 5px auto;text-align: center;background-color:black;color:greenyellow;
     left: 40%;
+}
+.alarm i{
+    float: left;position: absolute;top: 3%;font-size: 2em;
+    text-align: center;
+    left: 38%;
 }
