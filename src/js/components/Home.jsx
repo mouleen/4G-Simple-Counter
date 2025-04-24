@@ -7,8 +7,10 @@ import rigoImage from "../../img/rigo-baby.jpg";
 const Home = () => {
 	return (
 		<div className="text-center">         
+			<AlarmForm / >
 			<SecondCounter / >
 			<RegresiveCounter / >
+			<ActionButtons / >
 		</div>
 	);
 };

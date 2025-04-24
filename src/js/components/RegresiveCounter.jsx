@@ -4,7 +4,7 @@ function RegresiveCounter({seconds}){
     return (
         <div className="counter row bg-dark mt-5">
             <h2>Contador Regresivo</h2>
-            <div className="col-3"><i class="fa-regular fa-clock"></i></div>
+            <div className="col-3"><i className="fa-regular fa-clock"></i></div>
             <div className="col-1 text-light">{sec[0]}</div>
             <div className="col-1 text-light">{sec[1]}</div>
             <div className="col-1 text-light">{sec[2]}</div>
